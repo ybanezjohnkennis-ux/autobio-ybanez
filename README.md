@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autobiography of Ybañez</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ed479f, #f5f6f5);
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 40px;
+      background-color: #b206b8;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(-3px);
+    }
+
+    h1 {
+      text-align: center;
+      color: #007bff;
+      margin-bottom: 35px;
+      text-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .image-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .image-section img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #007bff;
+      box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .image-section img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 123, 255, 0.6);
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      color: #007bff;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
+    /* Neon Hover Effect */
+    .fx-neon:hover {
+      background: #333;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+      border-color: #00ffff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    /* Apply fx-neon to section headers for a cool hover glow */
+    .section h2.fx-neon {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 2px solid transparent;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="fx-neon">All About Myself</h1>
+
+    <!-- Profile Image Section -->
+    <div class="image-section">
+      <img src="kennis.png.jpg" alt="Ybañez's photo" />
+    </div>
+
+    <div class="section">
+
+      <center>
+      <p class="fx-neon">
+        Hello!, I'm John Kenns S. Ybañez. 18 yers old and I was born on June 24, 2007
+      </p>
+      </center>
+    </div>
+
+    <div class="section">
+      <h2 class="fx-neon">About My life</h2>
+      <p>
+ I'm a very curious person, and I really enjoy listening to people share their life stories. I'm at a point where I ask myself, "What is my purpose in life?" Then I met God, He guides me in choosing the right path. 
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="fx-neon">Hobbies</h2>
+      <p>
+        My hobbies are playing video games like mobile legends, chess and call of duty..
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="fx-neon">Goals</h2>
+      <p>
+        My goal is to make my parents proud of me and continue developing my skills.
+    </div>
+  </div>
+
+</body>
+</html>
+
